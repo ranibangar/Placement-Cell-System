@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 async function main(){
-    await mongoose.connect('mongodb+srv://manishchandrakar2001:PUrRZkY3POiCC5vN@cluster0.w5fmnnm.mongodb.net/placements-cell-db');
-//     await mongoose.connect('mongodb+srv://placement:1UbhMXi13RXuCwSn@cluster0.p5gbb.mongodb.net/placementcell?retryWrites=true&w=majority');
-
+    await mongoose.connect('mongodb+srv://ranibangar111:rani@123@cluster0.agc0dxh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/placements-cell-db');
     console.log("connection Successfull !! ");
 }
 main().catch(error =>console.log("connection not successfull !!"));
